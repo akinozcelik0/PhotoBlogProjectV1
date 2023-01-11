@@ -1,0 +1,7 @@
+﻿#Ignore Everything
+*
+
+#Not these Files 
+!.gitignore
+!e4fbb1fb-1dd4-4c4b-b6c1-60248b52b5b9.jpg
+!a56469a3-a8ce-4faf-8338-29de7f7f66a6.jpg
