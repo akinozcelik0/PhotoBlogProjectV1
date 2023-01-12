@@ -16,3 +16,19 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.posts{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.post img {
+    max-width: 100%;
+}
+
+.post-time{
+    text-align: right;
+    font-style: italic;
+    font-size: .8em;
+    padding: .5rem 0;
+}
