@@ -26,9 +26,15 @@ body {
     max-width: 100%;
 }
 
-.post-time{
-    text-align: right;
-    font-style: italic;
+.post-details {
+    display: flex;
+    justify-content: space-between;
+    padding: .3rem 0 0 0;
     font-size: .8em;
-    padding: .5rem 0;
+}
+.post-time{
+    
+    font-style: italic;
+    
+    
 }

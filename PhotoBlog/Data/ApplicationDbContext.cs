@@ -11,6 +11,8 @@ namespace PhotoBlog.Data
 
         public DbSet<Post> Posts => Set<Post>();
 
+        public DbSet<Tag> Tags => Set<Tag>();
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Post>().HasData(
@@ -22,6 +24,15 @@ namespace PhotoBlog.Data
                     Photo = "sample.jpg"
                 }
             );
+
+            modelBuilder.Entity<Tag>().HasData(
+                new Tag() { Id = 1, Name = "Nature" },
+                new Tag() { Id = 2, Name = "Sea" },
+                new Tag() { Id = 3, Name = "Hiking" },
+                new Tag() { Id = 4, Name = "Sunset" },
+                new Tag() { Id = 5, Name = "Walk" },
+                new Tag() { Id = 6, Name = "Rain" }
+                );
         }
     }
 }
