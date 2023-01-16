@@ -35,7 +35,6 @@
                 <label asp-for="Tags" class="form-label">Tags</label>
                 <select asp-items="ViewBag.Tags" asp-for="Tags" data-tags-input data-allow-new="true" data-allow-clear="true" class="form-select" name="tags[]" multiple>
                     <option disabled hidden value="">Choose a tag...</option>
-
                 </select>
                 <span asp-validation-for="Tags" class="text-danger"></span>
             </div>
